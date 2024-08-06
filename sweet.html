@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    
+    <script src="java.min.js"></script>
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/flickity.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/sweets.css">
+    <title>Rohtash's Sweets</title>
+</head>
+
+<body>
+
+    <section class="Navbar-Menu" id="Navbar-Menu-Id">
+        <div class="menu">
+            <div class="leftside">
+                <img src="images/logo.png" alt="logo.png">
+            </div>
+            <div class="rightside" id="rightside">
+                <nav class="Icons">
+                    <a href="index.html" class="navicon">Home</a>
+                    <a href="#Second-sec-id" class="navicon">About Us</a>
+                    <a href="#menu-id" class="navicon">Sweets Menu</a>
+                    <a href="feedback.html" class="navicon">Feedback</a>
+                    <a href="#footerid" class="navicon">Contact</a>
+                    <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
+
+                    <div class="social">
+                        <li id="Border"></li>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                        <a href="index.html" id="Sweet-Bakery">Rohtash's Sweets</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="menubar" >
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+            </div>
+        </div>
+        <div class="heading">
+            <h2>Welcome To Rohtash's Sweets</h2>
+            <p>Excelence In Quality. </p>
+            <a href="feedback.html"><i class="fal fa-phone-rotary"></i>Contact Us</a>
+        </div>
+        <div class="Scroll-Arrow" id="topbutton">
+            <a href="#"><i class="fal fa-arrow-up"></i></a>
+         </div>
+    </section>
+
+    <section class="second-Sec" id="Second-sec-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mx-auto">
+                    <img src="https://media.istockphoto.com/photos/diwali-rangoli-or-design-made-using-indian-snackssweet-and-diya-or-picture-id1054227912?k=20&m=1054227912&s=612x612&w=0&h=8Sz87vMFlGdpgz3xgyYDkMoqfHfJUAN07YSiQf5pKes="class="container-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 mx-auto">
+                    <h2><span id="Welcome">Welcome to</span> Rohtash's Sweets</h2>
+                    <p>At Rohtash's Sweets, we're passionate about bringing you the finest traditional sweets crafted with love and care. 
+                        Founded by Rohtash Singh, a master confectioner with over 30 years of experience, 
+                        our sweet shop has become a beloved destination for those seeking the authentic taste of India. <br><br>
+                        Our sweets are made fresh daily, ensuring that each bite is a delightful experience. 
+                        We take pride in using traditional methods and natural ingredients, with no artificial preservatives or additives. <br>
+                        Whether you're celebrating a special occasion or simply indulging your sweet tooth,
+                        Rohtash's Sweets offers a taste of authenticity that is sure to delight.
+                    </p>
+                    <a href="#">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="MenuSection" id="menu-id">
+        <h1>OUR QUALITY SWEETS </h1>
+        <p>Fresh Sweets Items with the Finest Ingredients</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Rasmalai.jpeg" alt=""class="container-fluid">
+                    <h3>Rasmalai </h3>
+                    <h6>$5.00<span id="Weight">6 Pieces</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/soan papdi.jpeg" alt="" class="container-fluid">
+                    <h3>Soan Papdi</h3>
+                    <h6>$3.00<span id="Weight">125 Gm</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="/images/स्वीट डिलाइट_ छेना रसगुल्ला (Sweet Delight_ Chenna Rasgulla).jpeg" alt="" class="container-fluid">
+                    <h3>Rasgulla</h3>
+                    <h6>$5.00<span id="Weight">250 Gm</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="/images/Kesharia Rajbhog.jpeg" alt=""class="container-fluid">
+                    <h3>Rajbhog</h3>
+                    <h6>$10.00<span id="Weight">500 Gm</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/Malai Chum Chum.jpeg" alt="" class="container-fluid">
+                    <h3>Malai Chum Chum</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Gulab Jamun Brown.jpeg" alt=""class="container-fluid">
+                    <h3>Gulab Jaman (Brown)</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Badam Pista Burfi.jpeg" alt="" class="container-fluid">
+                    <h3>Badam Pista Burfi</h3>
+                    <h6>$10.00<span id="Weight">Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="/images/Rasgulla white.jpeg" alt=""class="container-fluid">
+                    <h3>Ras Gulla (White)</h3>
+                    
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Motichoor Rabdi Parfait_.jpeg" alt=""class="container-fluid">
+                    <h3>Motichoor Rabdi (Brown)</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/black jamun.jpeg" alt="" class="container-fluid">
+                    <h3>Black Jamun</h3>
+                    
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/marvadi laddu.jpeg" alt="" class="container-fluid">
+                    <h3>Marvadi laddu</h3>
+                    
+                    <h6>$6.00<span id="Weight"> per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/kesar khewar.jpeg" alt="" class="container-fluid">
+                    <h3>Kesar Khewar</h3>
+                        
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Balushahi.jpeg" alt="" class="container-fluid">
+                    <h3>Balushahi (Brown)</h3>
+                    <h6>$5.00<span id="Weight"> Per liter</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Kalakand.jpeg" alt="" class="container-fluid">
+                    <h3>Kalakand</h3>
+                    <h6>$6.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Chocolate Barfi.jpeg" alt="" class="container-fluid">
+                    <h3>Chocolate Barfi</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Moti choor ke laddu.jpeg" alt="" class="container-fluid">
+                    <h3>Moti Choor Laddu</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Indian Barfi Recipe.jpeg"  alt="" class="container-fluid">
+                    <h3>Barfi</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/Kaju Katli.jpeg" alt="" class="container-fluid">
+                    <h3>Kaju Katli</h3>
+                    
+                    <h6>$6.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/Kaju Kalash.jpeg" alt="" class="container-fluid">
+                    <h3>Kaju Kalash</h3>
+                    
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Kaju Pista Roll.jpeg" alt="" class="container-fluid">
+                    <h3>Kaju Pista Roll</h3>
+                    
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="images/Mawa Barfi.jpeg" alt="" class="container-fluid">
+                    <h3>Mawa Barfi</h3>
+                    <h6>$7.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Besan Ke Ladoo.jpeg" alt="" class="container-fluid">
+                    <h3>Baisan Laddu</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Pineapple Kalakand.jpeg" alt="" class="container-fluid">
+                    <h3>Pineapple Qalaqand</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/baklava.jpeg"  alt="" class="container-fluid">
+                    <h3>Baklava</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/dry  Tarts.jpeg" alt="" class="container-fluid">
+                    <h3>Dry fruits Tarts</h3>
+                    <h6>$4.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Mix Mithai.jpeg" alt="" class="container-fluid">
+                    <h3>Mix Mithai Box</h3>
+                    <h6>$6.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/crunchy mewa bites.png" alt="" class="container-fluid">
+                    <h3>Crunchy Mewa Bites</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/akhrot mewa bites.png" alt="" class="container-fluid">
+                    <h3>Akhroat Mewa Bites</h3>
+                    <h6>$5.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Assorted Mewa Bites.png" alt="" class="container-fluid">
+                    <h3>Assorted Mewa Bites</h3>
+                    <h6>$5.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Berry MewaBite.jpeg" alt="" class="container-fluid">
+                    <h3>Berry Mewa Bites</h3>
+                    <h6>$9.00<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/Red Chiff Mewa Bites.png" alt="" class="container-fluid">
+                    <h3>Red Chiff Mewa Bites</h3>
+                    <h6>$10.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="/images/rose-mewa-bite.jpg" alt="" class="container-fluid">
+                    <h3>Rose Mewa Bites</h3>
+                    <h6>$12.00<span id="Weight"> Per kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Feedback" id="Feedback">
+        <h1>Feedback</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, distinctio!</p>
+        <div class="feedback-background">
+                <div class="center-heading">
+                <p>Have feedback about our products or service<br> Please contact Rohtash's Sweets directly</p>
+                <a href="feedback.html">Send Feedback Now</a>   
+                </div> 
+        </div>
+    </section>
+
+<section class="footer" id="footerid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>About Us</h3>
+                <p>Iso, Halal, & Haccap certified, approved by the Sindh Food Authority & made to the very highest standards of hygiene & healthfulness, our age-old virtues of quality & good service intact,<br><br><b>Baker's Kitchen</b> is now reinventing the art of baking with the same tender loving care that has earned us your trust.</p>
+                <hr class="w-25 mx-auto text-dark">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://gmail.google.com" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Contact Us   SHOP 1</h3> 
+                    <p>Shop no. 49 Tirupati Garden Complex Marwana Road, Meerut, U.P. 250001</p>
+                    <hr class="w-25 mx-auto text-dark">
+                    <p>Hours: Opens 6-AM To 10-PM <br>
+                        Monday to Monday <br>
+                        Phone: 9045050225</p>   
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.377159351546!2d77.6873933!3d28.9761928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c644548a8a989%3A0xbb11015eaceac72c!2sRohtas%20Sweets!5e0!3m2!1sen!2sin!4v1722843082930!5m2!1sen!2sin" 
+                    width="90%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">Rohtash's Sweets</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">Rohtash's Sweets</span> © Privacy Policy</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Design & Developed by <span id="Name"> VIVEK KUMAR GUPTA</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
